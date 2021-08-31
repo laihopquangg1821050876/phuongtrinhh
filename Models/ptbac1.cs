@@ -7,14 +7,14 @@ namespace phuongtrinhb1.Models
 {
     public class ptbac1
     {
-        public double phuongtrinhb1 ( double a, double b , double x)
+        public double Timx( double a, double b )
         {
-            double phuongtrinhb1 = 0;
-            phuongtrinhb1 = a*x + b;
-            return phuongtrinhb1;
+            double gtx = 0;
+            gtx = b / a;
+            return gtx;
 
 
-         
+
 
         }
     }
