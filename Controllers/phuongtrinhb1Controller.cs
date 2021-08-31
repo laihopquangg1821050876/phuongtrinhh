@@ -18,8 +18,8 @@ namespace phuongtrinhb1.Controllers
         {
             double so1 = Convert.ToDouble(soA);
             double so2 = Convert.ToDouble(soB);
-            double GTx = so1 / so2;
-            ViewBag.Timgtx=GTx;
+            double GiaTrix = so1 / so2;
+            ViewBag.Timgtx=GiaTrix;
             return View();
         }
         

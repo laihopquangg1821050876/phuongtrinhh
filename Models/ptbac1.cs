@@ -9,9 +9,9 @@ namespace phuongtrinhb1.Models
     {
         public double Timx( double a, double b )
         {
-            double gtx = 0;
-            gtx = b / a;
-            return gtx;
+            double giattrix = 0;
+            giattrix = a / b;
+            return giattrix;
 
 
 
