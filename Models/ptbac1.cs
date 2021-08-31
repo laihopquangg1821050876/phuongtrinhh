@@ -10,7 +10,7 @@ namespace phuongtrinhb1.Models
         public double phuongtrinhb1 ( double a, double b , double x)
         {
             double phuongtrinhb1 = 0;
-            phuongtrinhb1 = a x + b;
+            phuongtrinhb1 = a + b;
             return phuongtrinhb1;
 
 
