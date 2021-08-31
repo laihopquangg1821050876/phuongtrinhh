@@ -18,7 +18,8 @@ namespace phuongtrinhb1.Controllers
         {
             double so1 = Convert.ToDouble(soA);
             double so2 = Convert.ToDouble(soB);
-            double nghiem  = so1 + so2;
+            double so3 = Convert.ToDouble(anX);
+            double nghiem = so1*so3 + so2
             ViewBag.nghiemphuongtrinh = nghiem;
             return View();
         }
