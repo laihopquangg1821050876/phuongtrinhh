@@ -13,5 +13,16 @@ namespace phuongtrinhb1.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult phuongtrinhb1( string soA , string soB)
+        {
+            double so1 = Convert.ToDouble(soA);
+            double so2 = Convert.ToDouble(soB);
+            double nghiem  = so1 + so2;
+            ViewBag.nghiemphuongtrinh = nghiem;
+            return View();
+        }
+        
+        
     }
 }
