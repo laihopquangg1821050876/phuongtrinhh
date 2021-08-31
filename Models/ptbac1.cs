@@ -7,7 +7,15 @@ namespace phuongtrinhb1.Models
 {
     public class ptbac1
     {
-        public double tinh tong ( double a, double b)
+        public double phuongtrinhb1 ( double a, double b)
+        {
+            double phuongtrinhb1 = 0;
+            phuongtrinhb1 = a + b;
+            return phuongtrinhb1;
 
+
+         
+
+        }
     }
 }
