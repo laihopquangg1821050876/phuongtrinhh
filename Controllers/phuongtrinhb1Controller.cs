@@ -9,24 +9,21 @@ namespace phuongtrinhb1.Controllers
     public class phuongtrinhb1Controller : Controller
     {
         // GET: phuongtrinhb1
-        public ActionResult PTB1()
+        public ActionResult phuongtrinhb1()
         {
             return View();
-        
         }
         [HttpPost]
-        public ActionResult PTB1(string soX, string soY)
-        public ActionResult PTB1(string soA, string soB)
+        public ActionResult Timx( string soA , string soB)
         {
-            double soa = Convert.ToDouble(soX);
-            double sob = Convert.ToDouble(soY);
-            double ketqua = sob / soa;
             double so1 = Convert.ToDouble(soA);
             double so2 = Convert.ToDouble(soB);
-            double ketqua = so2 / so1;
-            ViewBag.Giaipt = ketqua;
+            double GiaTrix = - so1 / so2;
+            ViewBag.Timgtx=GiaTrix;
             return View();
-
-
         }
+
+        
+        
+    }
 }
