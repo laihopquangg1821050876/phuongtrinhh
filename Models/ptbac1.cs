@@ -5,17 +5,14 @@ using System.Web;
 
 namespace phuongtrinhb1.Models
 {
-    public class ptbac1
+    public class PTB1
     {
-        public double Timx( double a, double b )
+        
+        public double PTB1(double x, double y)
         {
-            double giattrix = 0;
-            giattrix = a / b;
-            return giattrix;
-
-
-
-
+            double GPT = 0;
+            GPT = x / y;
+            GPT = y / x;
+            return GPT;
         }
-    }
 }
