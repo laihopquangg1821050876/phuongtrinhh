@@ -1,3 +1,4 @@
+using phuongtrinhb1.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -14,6 +15,7 @@ namespace GiaiptBac1.Models
         }
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Account> Accounts { get; set; }
+        public virtual DbSet<khachhang> Khachhangs { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Account>()

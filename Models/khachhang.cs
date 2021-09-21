@@ -4,12 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace GiaiptBac1.Models
+namespace phuongtrinhb1.Models
 {
-    public class Account
+    public class khachhang
     {
         [Key]
-        public string Username { get; set; }
-        public string Password { get; set; }
+        public string username { get; set; }
+        public string address { get; set; }
+
     }
-}
+} 
